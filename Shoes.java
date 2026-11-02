@@ -15,7 +15,7 @@ public class Shoes extends Product{
      * Initializes a sneaker using its name, price, quantity, and shoe size,
      * while assigning a default color.
      */
-  public Sneaker(String name, double price, int quantity, int shoeSize){
+  public Shoes(String name, double price, int quantity, int shoeSize){
   super(name, price, quantity);
   this.shoeSize = shoeSize;
   this.color = "Black";
